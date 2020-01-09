@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    />
+
+    <title>Main page</title>
+  </head>
+  <body>
+    <h1>Welcome to Attack on いのすけ !</h1>
+    <i class="fas fa-bolt"></i>
+    <p>Play Zenitsu and beat up Inosuke.</p>
+    <h2>How to play :</h2>
+    <i class="fas fa-arrow-left"></i>
+    <i class="fas fa-arrow-right"></i>
+    <i class="fas fa-arrow-up"></i>
+    <i class="fas fa-arrow-down"></i>
+    to move SPACEBAR to shoot <br />
+    <br />
+    <button
+      class="btn waves-effect waves-yellow #f9fbe7 lime lighten-5"
+      id="Play"
+    ></button>
+  </body>
+  <script>
+    $("#Play").on("click", function() {
+      window.location = "game.html";
+    });
+  </script>
+</html>

@@ -1,0 +1,31 @@
+
+canvas {   
+    display : block;
+    margin : auto;
+    }
+    body {
+
+        background: #222;
+        color: #fff;
+        text-align: center;
+        font-family: 'Coiny';
+        
+      }
+        
+      .container {
+        margin-top: 100px;
+        animation-timing-function: linear;
+      }
+      
+      .fas.fa-bolt {
+        font-size: 7rem;
+        background: -webkit-linear-gradient(#222, #F1EA7F, #F1EA7F, #222); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      
+      h1 {
+        font-size: 7rem;
+        background: -webkit-linear-gradient(#222, #F1EA7F, #F1EA7F, #222);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;

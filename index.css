@@ -1,0 +1,69 @@
+html {
+    margin: 0;
+}
+
+
+.swal-overlay {
+    background-color: rgba(39, 43, 56, 0.45);
+  }
+  
+  .swal-button {
+    padding: 7px 19px;
+    border-radius: 4px;
+    background-color: #4962B3;
+    font-size: 14px;
+    border: 1px solid #fbfbfd;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Cinzel';
+  }
+
+body {
+
+  background: #222;
+  color: #fff;
+  text-align: center;
+  font-family: 'Coiny';
+  
+}
+  
+.container {
+  margin-top: 100px;
+  animation-timing-function: linear;
+}
+
+.fas.fa-bolt {
+  font-size: 7rem;
+  background: -webkit-linear-gradient(#222, #F1EA7F, #F1EA7F, #222); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.fas.fa-gift {
+  font-size: 7rem;
+  background: -webkit-linear-gradient(#222, #F1EA7F, #F1EA7F, #222); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  font-size: 7rem;
+  background: -webkit-linear-gradient(#222, #F1EA7F, #F1EA7F, #222);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+button {
+    background-image: url("assets/zenitsu.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    /* put the height and width of your image here */
+    height: 50px;
+    width: 100px;
+    border-radius: 4px;
+
+   
+  }
+
+  i {
+      font-size: 2.5rem;
+  }
+ 
